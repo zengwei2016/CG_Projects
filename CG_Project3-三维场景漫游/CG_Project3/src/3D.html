@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Depth Buffer</title>
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="../lib/MyVector3.js"></script>
+    <script src="../lib/scene.js"></script>
+    <script src="../lib/objLoader.js"></script>
+
+    <script src="main.js"></script>
+    <script src="textureLoader.js"></script>
+    <script src="objectLoader.js"></script>
+    <script src="camera.js"></script>
+</head>
+
+<body onload="main()">
+<canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+</canvas>
+<p id="messageBox"></p>
+<p>W、A、S、D分别是向前、向左、向后、向右移动</p>
+<p>I、K、J、L分别是视角向上、向下、向左、向右</p>
+<p> F相机点光源的打开与关闭<p>
+</body>
+</html>
